@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Belmond</title>
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+<div class="main w-full bg-gray-100 overflow-hidden">
+    
+    
+    <div class="navbar fixed w-full top-0 min-h-[100px] text-white bg-black bg-opacity-60 flex justify-between md:px-20 px-10 items-center z-10 overflow-x-hidden">
+        <div class="nav-left">
+            <a href="" class="font-semibold text-3xl text-[#b08968]">Belmond</a>
+        </div>
+        <div class="nav-middle hidden xl:flex ">
+            <ul class="flex gap-10 font-semibold">
+                <li class="overflow-hidden"><a href="#home" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Home</a></li>
+                <li class="overflow-hidden"><a href="#about us" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">About</a></li>
+                <li class="overflow-hidden"><a href="#facilities" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Facilities</a></li>
+                <li class="overflow-hidden"><a href="#rooms" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Our Rooms</a></li>
+                <li class="overflow-hidden"><a href="#pages" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Pages</a></li>
+                <li class="overflow-hidden"><a href="#contact" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right hidden pr-10 xl:flex items-center gap-20">
+            <a href="" class="px-10 py-4 font-semibold text-md bg-[#b08968] hover:bg-[#ddb892] hover:text-black transition-colors duration-300">Reservation</a>
+        </div>
+        <div class="flex xl:hidden">
+            <i class="bars fa-solid fa-bars"></i>
+            <i class="close hidden fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    
+
+
+    <div class="mobile-navbar hidden fixed z-50 w-full bg-black bg-opacity-60 text-white flex justify-center top-[100px] transition-all duration-300 ease-in-out">
+    
+        <ul class="flex flex-col w-[80%] justify-center items-center font-semibold">
+            
+            <li class="py-4 overflow-hidden"><a href="" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Home</a></li>
+            <hr class="w-[80%] border-[1px]">
+            
+            <li class="py-4 overflow-hidden"><a href="" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">About</a></li>
+            <hr class="w-[80%] border-[1px]">
+
+            <li class="py-4 overflow-hidden"><a href="" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Facilities</a></li>
+            <hr class="w-[80%] border-[1px]">
+            
+            <li class="py-4 overflow-hidden"><a href="" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Our Rooms</a></li>
+            <hr class="w-[80%] border-[1px]">
+            
+            <li class="py-4 overflow-hidden"><a href="" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Pages</a></li>
+            <hr class="w-[80%] border-[1px]">
+            
+            <li class="py-4 overflow-hidden"><a href="" class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Services</a></li>
+            <hr class="w-[80%] border-[1px]">
+
+            
+
+            <li class="py-4 overflow-hidden"><a href=""class="relative overflow-hidden z-10 after:absolute after:top-0 after:left-[-100%] hover:after:left-0 after:border-b-2 after:border-[#b08968] after:content-[''] after:w-full after:h-full after:z-[-10] after:transition-all after:duration-300 after:ease-in-out">Contact</a></li>
+            <hr class="w-[80%] border-[1px]">
+
+            <li class="text-center py-4 my-3 "><a href="" class="px-20 py-4 bg-[#A19183] text-white font-semibold text-md bg-[#b08968] hover:bg-[#ddb892] hover:text-black transition-colors duration-300">Reservation</a></li>
+        </ul>
+    </div>
+    
+
+
+    <div id="home" class="hero-section w-full h-screen bg-[#E6CCB2] flex flex-col justify-center items-center">
+
+        <div class="md:w-[50%] w-80% flex-col flex items-center px-10">
+            <h1 class="sm:text-[5vw] text-[10vw] font-semibold text-center md:leading-relaxed leading-relaxed pb-">Enjoy A Luxury <br> Experience</h1>
+            <h5 class="text-center sm:text-[1vw] text-[2vw] font-semibold">Indulge in luxury and comfort at our exquisite hotel, where every detail is meticulously crafted to ensure an unforgettable stay.
+            </h5>
+            <a href="#" class="px-10 z-10 overflow-hidden text-md cursor-pointer py-4 mt-10 border-2 font-semibold relative after:absolute after:content-[''] after:bottom-[-100%] text-black rounded hover:after:rounded hover:after:bottom-0 after:w-full after:h-full after:left-0 after:bg-[#b08968] hover:text-white
+            after:z-[-10] after:transition-all after:duration-700 after:ease-in-out transition-colors duration-300">Discover More</a>
+        </div>
+
+
+
+        <div class="booking-box w-[30vw] md:w-[80%] w-[90%] py-5 relative mt-10 md:bottom-[-8%] flex-wrap bg-white flex md:justify-between justify-center items-center px-14">
+
+        <div class=" flex md:flex-col md:justify-center w-full md:w-auto mt-2 px-3 md:px-0 justify-between items-center gap-2">
+
+        <h5 class="text-center pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] font-bold"></i>Check In Date</h5> 
+        <input type="date" id="date" name="Date" class="md:w-[150px] w-[100px] border-2 rounded border-black">
+    </div>
+    <hr class="w-full mt-2 md:hidden border-[1px]">
+
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto mt-2 px-3 md:px-0 justify-between items-center gap-2">
+        <h5 class="text-center pb-2 font-semibold sm:text-[1vw] text-[3vw]"> <i class="fa-regular fa-circle-xmark pr-3 text-[#7F5539] font-bold"></i>Check Out Date</h5>
+        <input type="date" id="date" name="Date" class="md:w-[150px] w-[100px] border-2 rounded border-black">
+    </div>
+    <hr class="w-full mt-2 md:hidden border-[1px]">
+
+
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto mt-2 px-3 md:px-0 justify-between items-center gap-2">
+        <h5 class="md:text-center pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-solid fa-person pr-3 text-[#7F5539] font-bold "></i>Adult</h5>
+        <input type="number" placeholder="Adults" min="0" max="10" step="1" class="md:w-[150px] w-[100px] border-2 rounded border-black">
+    </div>
+    <hr class="w-full mt-2 md:hidden border-[1px]">
+
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto mt-2 px-3 md:px-0 justify-between items-center gap-2">
+        <h5 class="md:text-center text-left pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-solid fa-child pr-3 text-[#7F5539] font-bold"></i>Child</h5>
+        <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" placeholder="Childs" class="md:w-[150px] w-[100px] border-2 rounded border-black">
+    </div>
+    <hr class="w-full mt-2 md:hidden border-[1px]">
+
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto  mt-2  px-3 md:px-0 justify-between items-center gap-2">
+        <h5 class="md:text-center text-left pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-solid fa-door-open pr-3 text-[#7F5539] text-bold"> 
+        </i>Rooms</h5>
+        <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" placeholder="Rooms" class="md:w-[150px] w-[100px] border-2 rounded border-black">
+    </div>
+    <hr class="w-full mt-2 md:hidden border-[1px]">
+
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto  px-3 md:px-0 justify-between items-center gap-2 mt-2 md:mt-0">
+        <h5 class="md:text-center text-left pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-solid fa-calendar-days text-[#7F5539] font-bold"></i></h5>
+        <a href="" class="pt-2 px-6 md:py-2 py-1 bg-[#b08968] md:text-md text-sm text-white font-semibold hover:bg-[#ddb892] hover:text-black transition-colors duration-300">Check Availability</a></div>
+    </div>
+
+
+    </div>
+
+
+    <div id="about us" class="section-2 w-full py-10 flex flex-col md:flex-row gap-10 md:justify-center md:items-center">
+
+        
+        <div class="about-image md:w-[50%] w-full md:h-full min-h-[80%] flex justify-center items-center">
+            
+            <div class="md:w-[40%] md:h-[50%] w-[60%] h-[60%]  relative ">
+                <img src="./images/img 2.jpg" alt="" class="w-full h-full object-cover">
+                <div class="md:w-[80%] md:h-[70%] w-[70%] h-[60%] bg-gray-100 absolute bottom-[-20%] right-[-20%]">
+                    <img src="./images/img 1.jpg" alt="" class="w-full h-full cover p-2 object-cover">
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="about-text md:w-[50%] w-full h-full flex px-10  flex-col justify-center">
+            <h3 class="abt-heading text-[#7F5539] text-xl font-bold mt-10">About Us</h3>
+            <h1 class="abt-heading md:text-[4vw] text-[10vw] font-bold leading-snug mb-2">Most Safe & Rated Hotel In London</h1>
+            
+            <p class="text-justify font-semibold">Welcome to <span class="font-bold text-lg text-[#7F5539]"> Blemond,</span> where luxury meets comfort. Nestled in the heart of <span class="font-bold text-lg text-[#7F5539]"> London,</span> our hotel offers a tranquil escape for travelers seeking relaxation and rejuvenation. With breathtaking views of [Landmark/Scenic Spot], impeccable service, and exquisite amenities, we promise an unforgettable stay for every guest.</p>
+            <br>
+        
+            <p class=" text-justify font-semibold">Our team is dedicated to providing personalized experiences and ensuring your every need is met. Whether you're here for a romantic getaway, a family vacation, or a business trip, we strive to exceed your expectations at every turn. Discover the essence of hospitality at Blemond and embark on a journey of unparalleled indulgence.</p>
+
+            <div class="faci-text mt-5">
+            <p class="text-[#7F5539] font-bold py-1"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i>24/7 Reception and Security</p>
+            <p class="text-[#7F5539] font-bold py-1"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i>Dining Options</p>
+            <p class="text-[#7F5539] font-bold py-1"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i>Meeting and Event Spaces</p>
+        </div>
+       
+        <a href="#" class="abt-btn md:w-[40%] px-10 z-10 overflow-hidden text-md cursor-pointer py-4 mt-10 border-2 border-gray-500 font-semibold relative after:absolute after:content-[''] after:bottom-[-100%] text-black rounded hover:after:bottom-0 after:w-full after:h-full after:left-0 after:bg-[#b08968] hover:text-white after:z-[-10] after:transition-all after:duration-700 after:ease-in-out transition-colors duration-300 text-center">Discover More</a></div>
+    
+    </div>
+
+
+    <div id="facilities" class="section-3 w-full flex flex-col items-center bg-[#E6CCB2] min-h-screen pb-10 relative">
+        <div class="md:w-80% w-[100%] px-10 flex flex-col items-center py-10 md:justify-center md:items-center ">
+        <h3 class="text-[#7F5539] text-xl font-bold mt-10" >Explore</h3>
+        <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-1">The Belmond</h1>
+        <p class="text-justify font-semibold">Uncover new horizons of relaxation and adventure as you explore the unparalleled amenities and experiences awaiting you.</p>
+    </div>
+    
+    <div class="w-[90%] md:w-[90%] py-5 flex flex-wrap flex-col md:flex-row md:justify-center items-center  gap-10">
+        
+        
+        <div class="w-[90%] md:w-[30%] items-center min-h-[10%] pb-10 pt-5 bg-white px-10">
+            <i class="ri-hotel-bed-line text-7xl mt-3 text-[#7F5539]"></i>
+            <h1 
+        class="font-bold text-2xl mt-2 mb-3">Quality Rooms</h1><h3 
+        class="mb-5 font-semibold">Indulge in luxurious rooms, your sanctuary for unparalleled comfort.</h3> 
+        <div class="font-semibold md:w-[45%] w-[60%] border-2 px-4 py-2 overflow-hidden relative after:content-[''] after:w-full after:h-full after:bg-[#b08968] after:absolute after:top-0 after:left-[-100%] hover:after:left-0 z-10 after:-z-10 hover:text-white transition-colors duration-500 after:transition-all after:duration-700 after:ease-in-out"><a href="" >Learn More  
+            <i class="fa-solid fa-arrow-right pl-2"></i></a></div></div>
+        
+        
+            <div class="w-[90%] md:w-[30%] items-center min-h-[10%] pb-10 pt-5 bg-white px-10">
+                <i class="ri-goblet-line text-7xl mt-3 text-[#7F5539]"></i></i>
+                <h1 class="font-bold text-2xl mt-2 mb-3">Beach Bar</h1> 
+                <h3 class="mb-5 font-semibold">Sip cocktails seaside at our vibrant beachfront bar paradise.</h3> 
+                <div class="font-semibold md:w-[45%] w-[60%] border-2 px-4 py-2 overflow-hidden relative after:content-[''] after:w-full after:h-full after:bg-[#b08968] after:absolute after:top-0 after:left-[-100%] hover:after:left-0 z-10 after:-z-10 hover:text-white transition-colors duration-500 after:transition-all after:duration-700 after:ease-in-out"><a href="" >Learn More  
+                    <i class="fa-solid fa-arrow-right pl-2"></i></a></div></div>
+        
+        
+            <div class="w-[90%] md:w-[30%] items-center min-h-[10%] pb-10 pt-5 bg-white px-10">
+                <i class="ri-hotel-line text-7xl mt-3 text-[#7F5539]"></i>
+                <h1 class="font-bold text-2xl mt-2 mb-3">Best Accomodation</h1> 
+                <h3 class="mb-5 font-semibold">Experience unparalleled luxury in our exquisite accommodation offerings.</h3> 
+                <div class="font-semibold md:w-[45%] w-[60%] border-2 px-4 py-2 overflow-hidden relative after:content-[''] after:w-full after:h-full after:bg-[#b08968] after:absolute after:top-0 after:left-[-100%] hover:after:left-0 z-10 after:-z-10 hover:text-white transition-colors duration-500 after:transition-all after:duration-700 after:ease-in-out"><a href="" >Learn More  
+                    <i class="fa-solid fa-arrow-right pl-2"></i></a></div></div>
+        
+        
+            <div class="w-[90%] md:w-[30%] items-center min-h-[10%] pb-10 pt-5 bg-white px-10">
+                <i class="ri-hand-heart-line text-7xl mt-3 text-[#7F5539]"></i>
+                <h1 class="font-bold text-2xl mt-2 mb-3">Wellness and Spa</h1> 
+                <h3 class="mb-5 font-semibold">Rejuvenate mind and body in our tranquil wellness spa oasis.</h3> 
+                
+                <div class="font-semibold md:w-[45%] w-[60%] border-2 px-4 py-2 overflow-hidden relative after:content-[''] after:w-full after:h-full after:bg-[#b08968] after:absolute after:top-0 after:left-[-100%] hover:after:left-0 z-10 after:-z-10 hover:text-white transition-colors duration-500 after:transition-all after:duration-700 after:ease-in-out"><a href="" >Learn More  
+            <i class="fa-solid fa-arrow-right pl-2"></i></a></div></div>
+
+            <div class="w-[90%] md:w-[30%] items-center min-h-[10%] pb-10 pt-5 bg-white px-10">
+                <i class="ri-restaurant-line text-7xl mt-3 text-[#7F5539]"></i>
+                <h1 class="font-bold text-2xl mt-2 mb-3">Restaurants & Bars</h1> 
+                <h3 class="mb-5 font-semibold">Savor delectable cuisine and crafted cocktails in our vibrant establishments.</h3> 
+                
+                <div class="font-semibold md:w-[45%] w-[60%] border-2 px-4 py-2 overflow-hidden relative after:content-[''] after:w-full after:h-full after:bg-[#b08968] after:absolute after:top-0 after:left-[-100%] hover:after:left-0 z-10 after:-z-10 hover:text-white transition-colors duration-500 after:transition-all after:duration-700 after:ease-in-out"><a href="" >Learn More  
+            <i class="fa-solid fa-arrow-right pl-2"></i></a></div></div>
+        
+
+            <div class="w-[90%] md:w-[30%] items-center min-h-[10%] pb-10 pt-5 bg-white px-10">
+                <i class="ri-bard-line text-7xl mt-3 text-[#7F5539]"></i>
+                <h1 class="font-bold text-2xl mt-2 mb-3">Special Offers</h1> 
+                <h3 class="mb-5 font-semibold">Unlock exclusive deals and unforgettable experiences with our special offer</h3> 
+                
+                <div class="font-semibold md:w-[45%] w-[60%] border-2 px-4 py-2 overflow-hidden relative after:content-[''] after:w-full after:h-full after:bg-[#b08968] after:absolute after:top-0 after:left-[-100%] hover:after:left-0 z-10 after:-z-10 hover:text-white transition-colors duration-500 after:transition-all after:duration-700 after:ease-in-out"><a href="" >Learn More  
+            <i class="fa-solid fa-arrow-right pl-2"></i></a></div></div>
+        
+            
+        
+        
+            
+    </div>
+    </div>
+
+
+    <div id="rooms" class="section-4 w-full flex items-center flex-col relative">
+    <div class="rooms-heading w-80% px-10  flex flex-col items-center py-10 md:justify-center md:items-center ">
+    <h3 class="text-[#7F5539] text-xl font-bold mt-10">The Pleasure of Luxury</h3>
+    <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-1">Rooms & Suites</h1>
+    <p class="text-justify font-semibold">From spacious suites to cozy retreats, discover the perfect accommodation tailored to your every need and preference.</p>
+</div>
+
+<div class="md:w-[90%] w-[90%] pt-5 p-10">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper py-5">
+          
+          
+            <div class="swiper-slide min-h-[90%]  shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                <div class="md:h-[50%] mb-10 rounded-tl-lg rounded-tr-lg bg-gray-200 overflow-hidden">
+                    <img src="./images/serenity.avif" alt="" class="image object-cover transition-transform duration-300 ease-in-out hover:scale-125">
+                </div>
+                <div class="md:px-10 pb-10 flex items-center flex-col">
+                    <h4 class="md:px-20 py-2 text-2xl font-bold mb-2">₹5,000/Night</h4> 
+                    <h1 class="font-bold text-2xl mb-3">Serenity Suite</h1>
+            <h3 class="px-10">Tranquil retreat with garden views and luxurious amenities.</h3>
+          
+                <a class="px-10 text-white rounded-xl hover:rounded-none transition-all duration-300 ease-in-out py-2 text-xl font-semibold mt-5 bg-[#b08968]">Book Now</a>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-slide min-h-[90%] shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                <div class="md:h-[50%] mb-10 rounded-tl-lg rounded-tr-lg bg-gray-200 overflow-hidden">
+                    <img src="images/beach.jpg" alt="" class="image object-cover transition-transform duration-300 ease-in-out hover:scale-125">
+                </div>
+                <div class="md:px-10 pb-10 flex items-center flex-col">
+                    <h4 class="md:px-20 py-2 text-2xl font-bold mb-2">₹6,000/Night</h4> 
+                    <h1 class="font-bold text-2xl mb-3">Ocean View Retreat</h1>
+            <h3 class="px-10">Coastal elegance with panoramic vistas and modern comforts.</h3>
+          
+                <a class="px-10 text-white rounded-xl hover:rounded-none transition-all duration-300 ease-in-out py-2 text-xl font-semibold mt-5 bg-[#b08968]">Book Now</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide min-h-[90%]   shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                <div class="md:h-[50%] mb-10 rounded-tl-lg rounded-tr-lg bg-gray-200 overflow-hidden">
+                    <img src="images/cozy.avif" alt="" class="image object-cover transition-transform duration-300 ease-in-out hover:scale-125">
+                </div>
+                <div class="md:px-10 pb-10 flex items-center flex-col">
+                    <h4 class="md:px-20 py-2 text-2xl font-bold mb-2">₹5,500/Night</h4> 
+                    <h1 class="font-bold text-2xl mb-3">Cozy Cabin Hideaway</h1>
+            <h3 class="px-10">Rustic charm, fireplace, nestled in scenic woodland setting.</h3>
+          
+                <a class="px-10 text-white rounded-xl hover:rounded-none transition-all duration-300 ease-in-out py-2 text-xl font-semibold mt-5 bg-[#b08968]">Book Now</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide min-h-[90%] shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                <div class="md:h-[50%] mb-10 rounded-tl-lg rounded-tr-lg bg-gray-200 overflow-hidden">
+                    <img src="images/garden.avif" alt="" class="image object-cover transition-transform duration-300 ease-in-out hover:scale-125">
+                </div>
+                <div class="md:px-10 pb-10 flex items-center flex-col">
+                    <h4 class="md:px-20 py-2 text-2xl font-bold mb-2">₹10,000/Night</h4> 
+                    <h1 class="font-bold text-2xl mb-3">Garden Oasis Room</h1>
+            <h3 class="px-10">Elegant sanctuary overlooking lush botanical gardens.</h3>
+          
+                <a class="px-10 text-white rounded-xl hover:rounded-none transition-all duration-300 ease-in-out py-2 text-xl font-semibold mt-5 bg-[#b08968]">Book Now</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide min-h-[90%]  shadow-lg shadow-gray-400  bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                <div class="md:h-[50%] mb-10 rounded-tl-lg rounded-tr-lg bg-gray-200 overflow-hidden">
+                    <img src="images/sunset.avif" alt="" class="image object-cover transition-transform duration-300 ease-in-out hover:scale-125">
+                </div>
+                <div class="md:px-10 pb-10 flex items-center flex-col">
+                    <h4 class="md:px-20 py-2 text-2xl font-bold mb-2">₹15,000/Night</h4> 
+                    <h1 class="font-bold text-2xl mb-3">Sunset Vista Suite</h1>
+            <h3 class="px-10">Spectacular sunset views from spacious, stylish accommodations.</h3>
+          
+                <a class="px-10 text-white rounded-xl hover:rounded-none transition-all duration-300 ease-in-out py-2 text-xl font-semibold mt-5 bg-[#b08968]">Book Now</a>
+                </div>
+
+            </div>
+            <div class="swiper-slide min-h-[90%]  shadow-lg shadow-gray-400  bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                <div class="md:h-[50%] mb-10 rounded-tl-lg rounded-tr-lg bg-gray-200 overflow-hidden">
+                    <img src="images/execuitive.avif" alt="" class="image object-cover transition-transform duration-300 ease-in-out hover:scale-125">
+                </div>
+                <div class="md:px-10 pb-10 flex items-center flex-col">
+                    <h4 class="md:px-20 py-2 text-2xl font-bold mb-2">₹20,000/Night</h4> 
+                    <h1 class="font-bold text-2xl mb-3">Executive Skyline Loft</h1>
+            <h3 class="px-10"> Sleek urban loft with skyline views, perfect for business travelers.</h3>
+          
+                <a class="px-10 text-white rounded-xl hover:rounded-none transition-all duration-300 ease-in-out py-2 text-xl font-semibold mt-5 bg-[#b08968]">Book Now</a>
+                </div>
+
+            </div>
+            
+            
+            
+
+            
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+    </div>
+
+
+    <div id="pages" class="section-5 w-full py-10 flex flex-col bg-[#E6CCB2] md:flex-row gap-10 md:justify-center md:items-center">
+
+        
+    <div class="pages-image md:w-[40%] ml-10 rounded-lg overflow-hidden w-[80%] md:h-full flex justify-center items-center transform rotate-[-3deg]">
+        <img src="./images/hotel and resort.avif" alt="" class="w-full h-full">
+    </div>
+    
+    <div class="pages-text md:w-[60%] w-full h-full flex px-10  flex-col justify-center">
+        <h3 class="text-[#7F5539] text-xl font-bold mt-10">Luxury Hotel & Resort</h3>
+        <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-2">Pearl Of The Adriatic.</h1>
+        
+        <p class="text-justify font-semibold">Nestled amidst breathtaking mountain vistas and lush greenery, our hotel offers a serene escape from the hustle and bustle of city life. Boasting luxurious accommodations and impeccable service, we invite you to indulge in a world of comfort and sophistication. Each meticulously designed room features modern amenities and elegant décor, ensuring a restful stay for every guest. Whether you're seeking a romantic getaway, a family vacation, or a corporate retreat, our hotel provides the perfect setting for memorable experiences.</p>
+        <br>
+    
+        <p class="text-justify font-semibold">From rejuvenating spa treatments to exhilarating outdoor adventures, our hotel offers an array of amenities and activities to cater to every preference. Unwind by the sparkling pool, savor exquisite cuisine at our onsite restaurant, or explore the scenic surroundings with guided hiking trails and nature excursions. With a dedicated team of hospitality professionals committed to exceeding your expectations, we strive to create unforgettable moments and lasting memories for each and every guest. Experience the epitome of luxury and hospitality at our hotel, where every detail is crafted to ensure an unparalleled stay.</p>
+
+    
+    <a href="#" class="md:w-[40%] px-10 z-10 overflow-hidden text-md cursor-pointer py-4 mt-10 border-2 font-semibold relative after:absolute after:content-[''] after:bottom-[-100%] text-black rounded hover:after:bottom-0 after:w-full after:h-full after:left-0 after:bg-[#b08968] hover:text-white after:z-[-10] after:transition-all after:duration-700 after:ease-in-out transition-colors duration-300 text-center">Discover More</a>
+    </div>
+    </div>
+
+
+    <div id="services" class="section-6 w-full py-10 flex flex-col  md:flex-row gap-10 md:justify-center md:items-center">
+
+        
+    <div class="md:w-[30%] px-10 w-full md:h-full flex flex-col justify-center">
+        <h3 class="text-[#7F5539] text-xl font-bold mt-10">Best Prices</h3>
+        <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-2">Extra Services</h1>
+        <p class="text-justify font-semibold">
+           
+Experience meticulous room cleaning services, ensuring pristine comfort and tranquility throughout your stay.   </p>
+
+        <br>
+
+        <p class="text-justify font-semibold">Quench your thirst and elevate your relaxation with our curated selection of refreshing drinks, available at your convenience.</p>
+
+    </div>
+    
+    <div class="md:w-[70%] w-full flex flex-col md:flex-row px-8 justify-evenly gap-10 items-center ">
+        
+        <div class="md:w-[50%] bg-white py-20 px-10 w-full">
+            <h1 class="font-bold text-4xl mb-3">Room Cleaning</h1>
+            <h3 class="font-semibold mb-3">Impeccable room cleaning for you.</h3>
+            <h1 class="font-bold text-4xl mb-3 text-[#7F5539]">₹3000/<span class="text-2xl ">Month</span>
+            </h1>
+            <hr class="bg-gray-100">
+            <div class="mb-8 mt-5">
+
+                <p class="text-[#7F5539] font-bold md:py-1 py-2"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i> 2 Daily thorough cleaning and sanitization.</p>
+                <p class="text-[#7F5539] font-bold md:py-1 py-2"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i>Linen change and bed-making service.</p>
+                <p class="text-[#7F5539] font-bold md:py-1 py-2"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i>Eco-friendly cleaning products used.</p> 
+                
+                
+                
+            
+        </div>
+        <div class="md:w-[100%] px-6 z-10 text-lg overflow-hidden text-md cursor-pointer py-2 mt-10 border-2 border-black font-semibold relative after:absolute after:content-[''] after:top-0 after:left-[-100%] text-black rounded hover:after:left-0 after:w-full after:h-full after:left-0 after:bg-[#b08968] hover:text-white after:z-[-10] after:transition-all after:duration-700 after:ease-in-out transition-colors duration-300 text-center">
+            <a href="#">Get Started <i class="ri-arrow-right-wide-line text-2xl pl-3"></i></a></div>
+        </div>
+        <div class="md:w-[50%] w-full bg-white py-20 px-10">
+            <h1 class="font-bold text-4xl mb-3">Drinks included</h1>
+            <h3 class="font-semibold mb-3">Complimentary drinks with every stay.</h3>
+            <h1 class="font-bold text-4xl mb-3 text-[#7F5539]">₹5000/<span class="text-2xl ">Month</span>
+            </h1>
+            <hr>
+            <div class="mb-8 mt-5">
+                <p class="text-[#7F5539] font-bold py-2 md:py-1 text-left"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i> Complimentary welcome drinks upon arrival.</p>
+                <p class="text-[#7F5539] font-bold py-2 md:py-1"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i>Daily restocking of minibar with beverages.</p>
+                <p class="text-[#7F5539] font-bold py-2 md:py-1"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] text-bold"></i>Access to a variety of refreshments in-room.</p>
+
+                
+
+            
+        </div>
+        <div class="md:w-[100%] px-6 z-10 text-lg overflow-hidden text-md cursor-pointer py-2 mt-10 border-2 border-black font-semibold relative after:absolute after:content-[''] after:top-0 after:left-[-100%] text-black rounded hover:after:left-0 after:w-full after:h-full after:left-0 after:bg-[#b08968] hover:text-white after:z-[-10] after:transition-all after:duration-700 after:ease-in-out transition-colors duration-300 text-center">
+            <a href="#">Get Started <i class="ri-arrow-right-wide-line text-2xl pl-3"></i></a></div>
+        </div>
+
+    
+    
+    </div>
+    </div>
+
+
+    <div id="review" class="section-7 w-full flex items-center flex-col  relative">
+    <div class="review-heading w-80% px-10  flex flex-col items-center py-10 md:justify-center md:items-center ">
+    <h3 class="text-[#7F5539] text-xl font-bold mt-10">Testimonial</h3>
+    <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-1">What Our Clients Says</h1>
+    <p class="text-justify font-semibold">Discover why our clients rave about their unforgettable experiences.</p>
+</div>
+
+<div class="md:w-[90%] w-[90%] pt-5 p-10">
+    <div class="swiper mySwiper2">
+        <div class="swiper-wrapper py-5">
+          
+          
+            <div class="swiper-slide shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                
+                <div class="md:px-10 py-10 text-left flex flex-col ">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-2 text-left mb-5">
+                        <div class="w-14 h-14 rounded-full overflow-hidden bg-black">
+                            <img src="./images/person-1.avif" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:mr-10">
+                            <h2>Marcus Chen</h2>
+                            <h3 class="text-center md:text-left">Client</h3>
+                        </div>
+                        <div class="flex gap-2 text-[#FCA311]">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-line"></i></div>
+                    </div>
+                <h3 class="px-10">Exquisite luxury and impeccable service define this five-star gem.</h3>
+          
+                
+                </div>
+
+            </div>
+
+            <div class="swiper-slide shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                
+                <div class="md:px-10 py-10 text-left flex flex-col ">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-2 text-left mb-5">
+                        <div class="w-14 h-14 rounded-full overflow-hidden bg-black">
+                            <img src="./images/person-2.avif" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:mr-10">
+                            <h2>Christopher</h2>
+                            <h3 class="text-center  md:text-left">Client</h3>
+                        </div>
+                        <div class="flex gap-2 text-[#FCA311]">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+                    </div>
+                <h3 class="px-10">A true haven of elegance and indulgence, every moment exceeds expectations.</h3>
+          
+                
+                </div>
+
+            </div>
+
+            <div class="swiper-slide shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                
+                <div class="md:px-10 py-10 text-left flex flex-col ">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-2 text-left mb-5">
+                        <div class="w-14 h-14 rounded-full overflow-hidden bg-black">
+                            <img src="./images/person-3.avif" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:mr-10">
+                            <h2>Michael</h2>
+                            <h3 class="text-center  md:text-left">Client</h3>
+                        </div>
+                        <div class="flex gap-2 text-[#FCA311]">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+                    </div>
+                <h3 class="px-10">Unparalleled opulence awaits at this prestigious five-star retreat.</h3>
+          
+                
+                </div>
+
+            </div>
+
+            <div class="swiper-slide shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                
+                <div class="md:px-10 py-10 text-left flex flex-col ">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-2 text-left mb-5">
+                        <div class="w-14 h-14 rounded-full overflow-hidden bg-black">
+                            <img src="./images/person-4.avif" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:mr-10">
+                            <h2>Sophia Patel</h2>
+                            <h3 class="text-center  md:text-left">Client</h3>
+                        </div>
+                        <div class="flex gap-2 text-[#FCA311]">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-line"></i></div>
+                    </div>
+                <h3 class="px-10">From the moment you arrive, you're enveloped in five-star sophistication.</h3>
+          
+                
+                </div>
+
+            </div>
+
+            <div class="swiper-slide shadow-lg shadow-gray-400 bg-gray-100 rounded flex flex-col justify-center items-center text-center">
+                
+                <div class="md:px-10 py-10 text-left flex flex-col ">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-2 text-left mb-5">
+                        <div class="w-14 h-14 rounded-full overflow-hidden bg-black">
+                            <img src="./images/person-5.avif" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="md:mr-10">
+                            <h2>Emily Johnson</h2>
+                            <h3 class="text-center md:text-left">Client</h3>
+                        </div>
+                        <div class="flex gap-2 text-[#FCA311]">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+                    </div>
+                <h3 class="px-10">Exceptional service, breathtaking views, and lavish amenities abound.</h3>
+          
+                
+                </div>
+
+            </div>
+
+
+            
+        </div>
+        <div class="swiper-pagination-2 pt-10"></div>
+      </div>
+
+
+</div>
+
+    </div>
+
+
+    <div id="contact" class="section-8 w-full py-10 flex flex-col md:flex-row gap-10 md:justify-center md:items-center">
+
+        
+    <div class="contact-text md:w-[50%] px-10 w-full md:h-full flex flex-col justify-center">
+        <h3 class="text-[#7F5539] text-xl font-bold mt-10">Make Appoinment</h3>
+        <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-2">Book A Room</h1>
+        
+        <div class="w-full flex flex-col md:flex-row justify-left gap-10 md:gap-20 py-3 ">
+        <div class="">
+
+            <h5 class="pb-2 font-semibold md:text-[1.2vw] text-[3vw]"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] font-bold"></i>Check In Date</h5> 
+            <input type="date" id="date" name="Date" class=" w-[300px] py-2 border-2 rounded border-black">
+        </div>
+        
+    
+        <div class="">
+            <h5 class="pb-2 font-semibold md:text-[1.2vw] text-[3vw]"> <i class="fa-regular fa-circle-xmark pr-3 text-[#7F5539] font-bold"></i>Check Out Date</h5>
+            <input type="date" id="date" name="Date" class="w-[300px] py-2 border-2 rounded border-black">
+        </div>
+    </div>
+
+    <div class="w-full flex flex-col md:flex-row justify-left gap-10 md:gap-20 py-3 ">
+        <div class="">
+
+            <h5 class="pb-2 font-semibold md:text-[1.2vw] text-[3vw]"><i class="fa-solid fa-person pr-3 text-[#7F5539] font-bold "></i>Adult</h5> 
+            <input type="number" placeholder="Adults" min="0" max="10" step="1" class="w-[300px] py-2 border-2 rounded border-black">
+        </div>
+    
+        <div class="">
+            <h5 class="pb-2 font-semibold md:text-[1.2vw] text-[3vw]"> <i class="fa-solid fa-door-open pr-3 text-[#7F5539] text-bold"> 
+            </i>Rooms</h5>
+            <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" placeholder="Rooms" class="w-[300px] py-2 border-2 rounded border-black">
+            
+            
+        </div>
+    </div>
+
+    </div>
+    
+    <div class="contact-image md:w-[50%] py-10 w-[90%] px-8">
+        <img src="./images/reception.jpg" alt="" class="w-full h-full">
+
+    </div>
+    </div>
+
+
+    <div class="section-9 w-full min-h-[20%] bg-[#E6CCB2]"></div>
+
+
+    <div class="section-10 w-full min-h-[40%] bg-[#6c757d] flex flex-col items-center md:flex-row justify-between px-10 pb-5">
+    <div class="w-30% pt-10 flex flex-col">
+        <a href="" class="font-semibold text-3xl text-[#b08968]">Belmond</a>
+        <div class="flex gap-3 mt-5">
+        <div class="w-12 h-12 rounded-full overflow-hidden bg-white flex justify-center items-center">
+            <i class="ri-phone-line text-2xl"></i>
+           
+        </div>
+        <div class="md:mr-10 text-white font-semibold">
+            <h2>+91 123456789</h2>
+            <h3 class="md:text-left">+91 1231231231</h3>
+        </div>
+    </div>
+
+    <div class="flex gap-3 mt-5">
+        <div class="w-12 h-12 rounded-full overflow-hidden bg-white flex justify-center items-center">
+            <i class="ri-mail-line text-2xl"></i>
+           
+        </div>
+        <div class="md:mr-10 text-white font-semibold">
+            <h2>help@example.com</h2>
+            <h3 class="md:text-left">info@example.com</h3>
+        </div>
+    </div>
+
+    <div class="flex gap-3 mt-5">
+        <div class="w-12 h-12 rounded-full overflow-hidden bg-white flex justify-center items-center">
+            <i class="ri-map-pin-line text-2xl"></i>
+           
+        </div>
+        <div class="md:mr-10 text-white font-semibold">
+            <h2>123 Main Street
+                Springfield, Anytown</h2>
+            <h3 class="md:text-left">United States</h3>
+        </div>
+    </div>
+
+    </div>
+
+    <div class=" w-[70%] mt-10 flex-col md:flex-row flex items-left gap-10 md:justify-evenly">
+        <div class=""><h1 class="text-white font-bold text-lg mb-3">Our Links</h1>
+        <li class="text-white font-semibold">Home</li>
+        <li class="text-white font-semibold">About Us</li>
+        <li class="text-white font-semibold">Services</li>
+        <li class="text-white font-semibold">Contact Us</li></div>
+        <div class="">
+            <h1 class="text-white font-bold text-lg mb-3">Our Services</h1>
+<li class="text-white font-semibold">FAQ</li>
+<li class="text-white font-semibold">Support</li>
+<li class="text-white font-semibold">Privacy</li>
+<li class="text-white font-semibold">Terms & Conditions</li>
+
+        </div>
+        <div class=" flex flex-col"><h1 class="mb-3 text-white font-bold">Subscribe</h1>
+        <input type="email" placeholder="Enter Email" class="py-2 w-[230px]" >
+        <a href="" class="px-6 py-2 bg-[#b08968] text-white mt-5 text-center font-semibold hover:text-black transition-colors duration-300">Submit</a>
+        </div>
+    </div>
+    </div>
+
+
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+
+<script src="https://cdn.tailwindcss.com"></script>
+  
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -78,56 +78,55 @@
     
 
 
-    <div id="home" class="hero-section w-full h-screen bg-[#E6CCB2] flex flex-col justify-center items-center">
+    <div id="home" class="hero-section w-full bg-[#E6CCB2] flex flex-col justify-center items-center pb-20">
 
         <div class="md:w-[50%] w-80% flex-col flex items-center px-10">
             <h1 class="sm:text-[5vw] text-[10vw] font-semibold text-center md:leading-relaxed leading-relaxed pb-">Enjoy A Luxury <br> Experience</h1>
             <h5 class="text-center sm:text-[1vw] text-[2vw] font-semibold">Indulge in luxury and comfort at our exquisite hotel, where every detail is meticulously crafted to ensure an unforgettable stay.
             </h5>
-            <a href="#" class="px-10 z-10 overflow-hidden text-md cursor-pointer py-4 mt-10 border-2 font-semibold relative after:absolute after:content-[''] after:bottom-[-100%] text-black rounded hover:after:rounded hover:after:bottom-0 after:w-full after:h-full after:left-0 after:bg-[#b08968] hover:text-white
-            after:z-[-10] after:transition-all after:duration-700 after:ease-in-out transition-colors duration-300">Discover More</a>
+            <a href="#" class="px-8 z-10 overflow-hidden text-md cursor-pointer py-4 mt-10 border-2 border-white font-semibold relative after:absolute after:content-[''] after:bottom-[-100%] text-black rounded hover:after:bottom-0 after:w-full after:h-full after:left-0 after:bg-[#b08968] hover:text-white after:z-[-10] after:transition-all after:duration-700 after:ease-in-out transition-colors duration-300 text-center">Discover More</a>
         </div>
 
 
 
-        <div class="booking-box w-[30vw] md:w-[80%] w-[90%] py-5 relative mt-10 md:bottom-[-8%] flex-wrap bg-white flex md:justify-between justify-center items-center px-14">
+        <div class="booking-box md:w-[70%] w-[90%] py-5 mt-10 flex-wrap bg-white flex justify-center gap-6 items-center px-10">
 
-        <div class=" flex md:flex-col md:justify-center w-full md:w-auto mt-2 px-3 md:px-0 justify-between items-center gap-2">
+        <div class=" flex md:flex-col justify-center w-full md:w-auto mt-2 md:mt-8 lg:mt-0 px-3 md:px-0 justify-between items-center gap-2">
 
         <h5 class="text-center pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] font-bold"></i>Check In Date</h5> 
         <input type="date" id="date" name="Date" class="md:w-[150px] w-[100px] border-2 rounded border-black">
     </div>
     <hr class="w-full mt-2 md:hidden border-[1px]">
 
-    <div class="flex md:flex-col md:justify-center w-full md:w-auto mt-2 px-3 md:px-0 justify-between items-center gap-2">
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto mt-2 md:mt-8 lg:mt-0 px-3 md:px-0 justify-between items-center gap-2">
         <h5 class="text-center pb-2 font-semibold sm:text-[1vw] text-[3vw]"> <i class="fa-regular fa-circle-xmark pr-3 text-[#7F5539] font-bold"></i>Check Out Date</h5>
         <input type="date" id="date" name="Date" class="md:w-[150px] w-[100px] border-2 rounded border-black">
     </div>
     <hr class="w-full mt-2 md:hidden border-[1px]">
 
 
-    <div class="flex md:flex-col md:justify-center w-full md:w-auto mt-2 px-3 md:px-0 justify-between items-center gap-2">
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto mt-2 md:mt-8 lg:mt-0 px-3 md:px-0 justify-between items-center gap-2">
         <h5 class="md:text-center pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-solid fa-person pr-3 text-[#7F5539] font-bold "></i>Adult</h5>
         <input type="number" placeholder="Adults" min="0" max="10" step="1" class="md:w-[150px] w-[100px] border-2 rounded border-black">
     </div>
     <hr class="w-full mt-2 md:hidden border-[1px]">
 
-    <div class="flex md:flex-col md:justify-center w-full md:w-auto mt-2 px-3 md:px-0 justify-between items-center gap-2">
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto  px-3 md:px-0 justify-between items-center gap-2 mt-2 md:mt-8 lg:mt-0">
         <h5 class="md:text-center text-left pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-solid fa-child pr-3 text-[#7F5539] font-bold"></i>Child</h5>
         <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" placeholder="Childs" class="md:w-[150px] w-[100px] border-2 rounded border-black">
     </div>
     <hr class="w-full mt-2 md:hidden border-[1px]">
 
-    <div class="flex md:flex-col md:justify-center w-full md:w-auto  mt-2  px-3 md:px-0 justify-between items-center gap-2">
+    <div class="flex md:flex-col md:justify-center w-full md:w-auto px-3 md:px-0 justify-between items-center gap-2 mt-2 md:mt-8 lg:mt-0">
         <h5 class="md:text-center text-left pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-solid fa-door-open pr-3 text-[#7F5539] text-bold"> 
         </i>Rooms</h5>
         <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" placeholder="Rooms" class="md:w-[150px] w-[100px] border-2 rounded border-black">
     </div>
     <hr class="w-full mt-2 md:hidden border-[1px]">
 
-    <div class="flex md:flex-col md:justify-center w-full md:w-auto  px-3 md:px-0 justify-between items-center gap-2 mt-2 md:mt-0">
+    <div class="flex md:flex-col text-center md:justify-center w-full md:w-auto px-3 md:px-0 justify-between items-center gap-2  mt-2 md:mt-8 lg:mt-5">
         <h5 class="md:text-center text-left pb-2 font-semibold sm:text-[1vw] text-[3vw]"><i class="fa-solid fa-calendar-days text-[#7F5539] font-bold"></i></h5>
-        <a href="" class="pt-2 px-6 md:py-2 py-1 bg-[#b08968] md:text-md text-sm text-white font-semibold hover:bg-[#ddb892] hover:text-black transition-colors duration-300">Check Availability</a></div>
+        <a href="" class="pt-2 px-4 lg:px-16 md:py-2 py-1 bg-[#b08968] md:text-md text-sm text-center text-white font-semibold hover:bg-[#ddb892] hover:text-black transition-colors duration-300">Check Availability</a></div>
     </div>
 
 
@@ -168,7 +167,7 @@
     </div>
 
 
-    <div id="facilities" class="section-3 w-full flex flex-col items-center bg-[#E6CCB2] min-h-screen pb-10 relative">
+    <div id="facilities" class="section-3 w-full flex flex-col items-center bg-[#E6CCB2] pb-10 relative">
         <div class="md:w-80% w-[100%] px-10 flex flex-col items-center py-10 md:justify-center md:items-center ">
         <h3 class="text-[#7F5539] text-xl font-bold mt-10" >Explore</h3>
         <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-1">The Belmond</h1>
@@ -236,11 +235,11 @@
     </div>
 
 
-    <div id="rooms" class="section-4 w-full flex items-center flex-col relative">
-    <div class="rooms-heading w-80% px-10  flex flex-col items-center py-10 md:justify-center md:items-center ">
-    <h3 class="text-[#7F5539] text-xl font-bold mt-10">The Pleasure of Luxury</h3>
-    <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-1">Rooms & Suites</h1>
-    <p class="text-justify font-semibold">From spacious suites to cozy retreats, discover the perfect accommodation tailored to your every need and preference.</p>
+    <div id="rooms" class="section-4 w-full flex items-center justify-center flex-col relative">
+    <div class="rooms-heading w-80% px-10 flex flex-col items-center py-10 md:justify-center ">
+    <h3 class="text-[#7F5539] text-xl font-bold mt-10 text-center">The Pleasure of Luxury</h3>
+    <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-1 text-center">Rooms & Suites</h1>
+    <p class="text-center font-semibold">From spacious suites to cozy retreats, discover the perfect accommodation tailored to your every need and preference.</p>
 </div>
 
 <div class="md:w-[90%] w-[90%] pt-5 p-10">
@@ -431,9 +430,9 @@ Experience meticulous room cleaning services, ensuring pristine comfort and tran
 
     <div id="review" class="section-7 w-full flex items-center flex-col  relative">
     <div class="review-heading w-80% px-10  flex flex-col items-center py-10 md:justify-center md:items-center ">
-    <h3 class="text-[#7F5539] text-xl font-bold mt-10">Testimonial</h3>
-    <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-1">What Our Clients Says</h1>
-    <p class="text-justify font-semibold">Discover why our clients rave about their unforgettable experiences.</p>
+    <h3 class="text-[#7F5539] text-xl font-bold mt-10 text-center">Testimonial</h3>
+    <h1 class="md:text-[4vw] text-center text-[10vw] font-bold leading-snug mb-1">What Our Clients Says</h1>
+    <p class="text-center font-semibold">Discover why our clients rave about their unforgettable experiences.</p>
 </div>
 
 <div class="md:w-[90%] w-[90%] pt-5 p-10">
@@ -513,7 +512,7 @@ Experience meticulous room cleaning services, ensuring pristine comfort and tran
                         </div>
                         <div class="md:mr-10">
                             <h2>Sophia Patel</h2>
-                            <h3 class="text-center  md:text-left">Client</h3>
+                            <h3 class="text-center md:text-left">Client</h3>
                         </div>
                         <div class="flex gap-2 text-[#FCA311]">
                         <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-line"></i></div>
@@ -558,14 +557,14 @@ Experience meticulous room cleaning services, ensuring pristine comfort and tran
     </div>
 
 
-    <div id="contact" class="section-8 w-full py-10 flex flex-col md:flex-row gap-10 md:justify-center md:items-center">
+    <div id="contact" class="section-8 w-full py-10 flex flex-col md:flex-row justify-between md:items-center flex-wrap">
 
         
-    <div class="contact-text md:w-[50%] px-10 w-full md:h-full flex flex-col justify-center">
+    <div class="contact-text md:w-[50%] px-10 w-full md:h-full  flex flex-col">
         <h3 class="text-[#7F5539] text-xl font-bold mt-10">Make Appoinment</h3>
-        <h1 class="md:text-[4vw] text-[10vw] font-bold leading-snug mb-2">Book A Room</h1>
+        <h1 class="md:text-[4vw] text-[10vw] font-bold mb-2">Book A Room</h1>
         
-        <div class="w-full flex flex-col md:flex-row justify-left gap-10 md:gap-20 py-3 ">
+        <div class="w-full flex flex-col lg:flex-row justify-left mb-4 gap-10 lg:gap-20 py-3 ">
         <div class="">
 
             <h5 class="pb-2 font-semibold md:text-[1.2vw] text-[3vw]"><i class="fa-regular fa-circle-check pr-3 text-[#7F5539] font-bold"></i>Check In Date</h5> 
@@ -579,7 +578,7 @@ Experience meticulous room cleaning services, ensuring pristine comfort and tran
         </div>
     </div>
 
-    <div class="w-full flex flex-col md:flex-row justify-left gap-10 md:gap-20 py-3 ">
+    <div class="w-full flex flex-col lg:flex-row justify-left mt-4 gap-10 lg:gap-20 py-3 ">
         <div class="">
 
             <h5 class="pb-2 font-semibold md:text-[1.2vw] text-[3vw]"><i class="fa-solid fa-person pr-3 text-[#7F5539] font-bold "></i>Adult</h5> 
@@ -597,7 +596,7 @@ Experience meticulous room cleaning services, ensuring pristine comfort and tran
 
     </div>
     
-    <div class="contact-image md:w-[50%] py-10 w-[90%] px-8">
+    <div class="contact-image md:w-[40%] py-10 w-[90%] px-8">
         <img src="./images/reception.jpg" alt="" class="w-full h-full">
 
     </div>

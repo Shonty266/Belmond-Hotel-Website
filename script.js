@@ -122,8 +122,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-2",
       scroller:"body",
-      start:"top 20%",
-      end: "top 30%",
+      start:"top 50%",
+      end: "top 40%",
       // markers:true,
       scrub:2,
     }
@@ -138,8 +138,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-2",
       scroller:"body",
-      start:"top 20%",
-      end: "top 30%",
+      start:"top 50%",
+      end: "top 40%",
       // markers:true,
       scrub:2,
     }
@@ -183,8 +183,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-3",
       scroller:"body",
-      start:"top 30%",
-      end: "top 70%",
+      start:"top 50%",
+      end: "top 40%",
       // markers:true,
       scrub:2,
     }
@@ -196,8 +196,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-4",
       scroller:"body",
-      start:"top 30%",
-      end: "top 50%",
+      start:"top 50%",
+      end: "top 40%",
       // markers:true,
       scrub:2,
     }
@@ -211,8 +211,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-5",
       scroller:"body",
-      start:"top 20%",
-      end: "top 30%",
+      start:"top 50%",
+      end: "top 40%",
       // markers:true,
       scrub:2,
     }
@@ -227,8 +227,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-5",
       scroller:"body",
-      start:"top 20%",
-      end: "top 30%",
+      start:"top 50%",
+      end: "top 40%",
       // markers:true,
       scrub:2,
     }
@@ -242,8 +242,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-6",
       scroller:"body",
-      start:"top 30%",
-      end: "top 70%",
+      start:"top 50%",
+      end: "top 40%",
       // markers:true,
       scrub:2,
     }
@@ -255,8 +255,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-7",
       scroller:"body",
-      start:"top 30%",
-      end: "top 50%",
+      start:"top 50%",
+      end: "top 40%",
       // markers:true,
       scrub:2,
     }
@@ -269,8 +269,8 @@ function animation(){
     scrollTrigger:{
       trigger:".section-8",
       scroller:"body",
-      start:"top 20%",
-      end: "top 40%",
+      start:"top 70%",
+      end: "top 60%",
       // markers:true,
       scrub:2,
     }
@@ -284,26 +284,14 @@ function animation(){
     scrollTrigger:{
       trigger:".section-8",
       scroller:"body",
-      start:"top 20%",
-      end: "top 40%",
+      start:"top 70%",
+      end: "top 60%",
       // markers:true,
       scrub:2,
     }
   })
 
-  gsap.from('.section-10', {
-    y:100,
-    duration:10,
-    opacity:0,
-    scrollTrigger:{
-      trigger:".section-10",
-      scroller:"body",
-      start:"top 80%",
-      end: "top 100%",
-      // markers:true,
-      scrub:2,
-    }
-  })
+  
 }
 
 animation();
